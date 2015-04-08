@@ -21,41 +21,26 @@
 <%interests%>
 
 \section{experience}
-\begin{entrylist}
+\begin{experience}
   <%#experience%>
-  \entry
-    {<%start_date%> - <%end_date%>}
-    {<%title%>}
-    {<%company%>}
-    {
-    <%#responsibilities%>
-    \begin{itemize}
-      <%#items%>
-        \item <%& .%>
-      <%/items%>
-    \end{itemize}
-    <%/responsibilities%>}
-
-  <%/experience%>
-\end{entrylist}
-
-\section{experience}
-\setlength{\tabcolsep}{1pt}
-\begin{tabularx}{\textwidth}{ll@{\extracolsep{\fill}}r}
-  <%#experience%>
-    <%start_date%> to
-    & \textbf{<%title%>} @ <%company%>
-    & <%location%> \\
-    <%end_date%>
-    & \multicolumn{2}{X}{
+    \experienceentry
+      {<%start_date%> to}
+      {<%end_date%>}
+      {<%title%> @ <%company%>}
+      {<%location%>}
       <%#responsibilities%>
-        <%#items%>
-          <%& .%> \newline
-        <%/items%>
+        {<%main%>}
+        {<%#items.length%>
+          \begin{itemize}[leftmargin=*]
+          \itemsep 0.8em
+            <%#items%>
+              \item <%& .%>
+            <%/items%>
+          \end{itemize}
+        <%/items.length%>}
       <%/responsibilities%>
-    } \\
   <%/experience%>
-\end{tabularx}
+\end{experience}
 
 \section{education}
 \begin{entrylist}

@@ -130,8 +130,9 @@
 %%%%%%%%%%%%%%%%%%%%
 % List environment %
 %%%%%%%%%%%%%%%%%%%%
+\usepackage{enumitem}
 
-\setlength{\tabcolsep}{0pt}
+\setlength{\tabcolsep}{4pt}
 \newenvironment{entrylist}{%
   \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}ll}
 }{%
@@ -145,6 +146,20 @@
     {\footnotesize\addfontfeature{Color=lightgray} #3}\\%
     #4\vspace{\parsep}%
   }\\}
+
+\newenvironment{experience}%
+  {\tabularx{\textwidth}{ll@{\extracolsep{\fill}}r}}%
+  {\endtabularx}%
+
+\newcommand{\experienceentry}[6]{
+    #1 &
+    {\large\textbf{#3}} &
+    {\footnotesize\addfontfeature{Color=lightgray} #4} \\
+    #2 &
+    \multicolumn{2}{X}{
+      #5 \vspace{\parsep}
+      #6} \\
+    }
 
 
 %%%%%%%%%%%%%%
