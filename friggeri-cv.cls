@@ -52,8 +52,9 @@
 \newfontfamily\bodyfont[]{Raleway}
 \newfontfamily\thinfont[]{Raleway Thin}
 \newfontfamily\headingfont[]{Raleway Bold}
+\newfontfamily\iconfont[]{FontAwesome}
 
-\defaultfontfeatures{Mapping=tex-text}
+\defaultfontfeatures{Mapping=tex-text, Numbers=Lining}
 \setmainfont[Mapping=tex-text, Color=textcolor]{Raleway Light}
 
 \setmathfont{xits-math.otf}
@@ -174,7 +175,7 @@
   \renewcommand{\section}[1]{
     \par\vspace{\baselineskip}{\Large\headingfont\color{headercolor} ##1}
   }
-  \begin{textblock}{3.6}(1.5, 4.33)
+  \begin{textblock}{4.1}(1, 4.33)
   \begin{flushright}
   \obeycr
 }{%

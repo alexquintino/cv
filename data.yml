@@ -1,9 +1,28 @@
----
 bio:
   first_name: alexandre
   last_name: quintino
   email: amsquintino@gmail.com
   website: alexquintino.github.io
+  github: github.com/alexquintino
+  twitter: amsquintino
+  languages:
+    - "Portuguese - Native"
+    - "English - Full Proficiency"
+    - "French - Beginner"
+    - "Spanish - Beginner"
+  interests:
+    - "Ruby, Neo4j"
+    - "Machine Learning"
+    - "Apache Spark"
+    - "Scala, D3.js"
+    - "Redis, Docker"
+    - "Data Visualization"
+    - "Elasticsearch"
+    - "Amazon Web Services"
+    - "Gephi, Processing"
+    - "Generative Art"
+    - "Akka, Play, React"
+
 experience:
   - start_date: 3/2014
     end_date: present
@@ -53,4 +72,3 @@ education:
     name: Machine Learning
     type: Course
     institution: Coursera
----

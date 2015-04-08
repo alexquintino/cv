@@ -9,16 +9,24 @@
 % In the aside, each new line forces a line break
 \begin{aside}
   \section{about}
-    Address address
-    address
-    address
-    \href{mailto:<%email%>}{<%email%>}
-    \href{<%website%>}{<%website%>}
+      <%#private_address%>
+        <%.%>
+      <%/private_address%>
+      <%private_phonenumber %> {\iconfont\symbol{"F095}}
+      {\small \href{mailto:<%email%>}{<%email%> {\iconfont\symbol{"F0E0}}}}
+      {\small \href{https://<%website%>}{<%website%> {\iconfont\symbol{"F015}}}}
+      {\small \href{https://<%github%>}{<%github%> {\iconfont\symbol{"F09B}}}}
+      {\small \href{https://twitter.com/<%twitter%>}{<%twitter%> {\iconfont\symbol{"F099}}}}
+  \section{interests}
+    <%#interests%>
+      <%.%>
+    <%/interests%>
+  \section{languages}
+    <%#languages%>
+      <%.%>
+    <%/languages%>
 \end{aside}
 <%/bio%>
-
-\section{interests}
-<%interests%>
 
 \section{experience}
 \begin{experience}
