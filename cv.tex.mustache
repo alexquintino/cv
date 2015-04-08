@@ -39,6 +39,24 @@
   <%/experience%>
 \end{entrylist}
 
+\section{experience}
+\setlength{\tabcolsep}{1pt}
+\begin{tabularx}{\textwidth}{ll@{\extracolsep{\fill}}r}
+  <%#experience%>
+    <%start_date%> to
+    & \textbf{<%title%>} @ <%company%>
+    & <%location%> \\
+    <%end_date%>
+    & \multicolumn{2}{X}{
+      <%#responsibilities%>
+        <%#items%>
+          <%& .%> \newline
+        <%/items%>
+      <%/responsibilities%>
+    } \\
+  <%/experience%>
+\end{tabularx}
+
 \section{education}
 \begin{entrylist}
   <%#education%>

@@ -8,6 +8,10 @@ experience:
   - start_date: 3/2014
     end_date: present
     title: Independent Software Developer
+    responsibilities:
+      items:
+        - "stuff"
+    location: "Geneva, Switzerland"
   - start_date: 1/2012
     end_date: 12/2013
     title: Software Developer
@@ -20,6 +24,7 @@ experience:
         - "responsible for assisting the launch of several online casinos for established brands, by interacting directly with clients and acting as the link between the client and the rest of the development team"
         - "helped interview new hires and responsible for onboarding them in the applications' architecture and development,test and release processes"
         - "assisted in the development of AGO"
+    location: "Stockholm, Sweden"
   - start_date: 8/2010
     end_date: 8/2011
     title: Software Developer
@@ -29,6 +34,7 @@ experience:
         - "part of the team responsible for Compras Públicas, a leading public procurement platform"
         - "single-handedly developed and integrated a Java applet responsible for the submission of encrypted proposals to Gatewit's public procurement platform"
         - "developed initial integration, through secure web-services, of Gatewit's public procurement platform with the portuguese government's platform of public contracts(Base)"
+    location: "Lisbon, Portugal"
 
 education:
   - start_date: 2007

@@ -91,6 +91,7 @@
 % Structure %
 %%%%%%%%%%%%%
 \RequirePackage{parskip}
+\RequirePackage{tabularx}
 
 \newcounter{colorCounter}
 \def\@sectioncolor#1#2#3{%
@@ -130,7 +131,7 @@
 % List environment %
 %%%%%%%%%%%%%%%%%%%%
 
-\setlength{\tabcolsep}{1pt}
+\setlength{\tabcolsep}{0pt}
 \newenvironment{entrylist}{%
   \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}ll}
 }{%
