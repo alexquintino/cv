@@ -1,0 +1,53 @@
+{{=<% %>=}}
+%!TEX TS-program = xelatex
+\documentclass[]{friggeri-cv}
+
+\begin{document}
+<%#bio%>
+\header{<%first_name%>}{<%last_name%>}{}
+
+% In the aside, each new line forces a line break
+\begin{aside}
+  \section{about}
+    Address address
+    address
+    address
+    \href{mailto:<%email%>}{<%email%>}
+    \href{<%website%>}{<%website%>}
+\end{aside}
+<%/bio%>
+
+\section{interests}
+<%interests%>
+
+\section{experience}
+\begin{entrylist}
+  <%#experience%>
+  \entry
+    {<%start_date%> - <%end_date%>}
+    {<%title%>}
+    {<%company%>}
+    {
+    <%#responsibilities%>
+    \begin{itemize}
+      <%#items%>
+        \item <%& .%>
+      <%/items%>
+    \end{itemize}
+    <%/responsibilities%>}
+
+  <%/experience%>
+\end{entrylist}
+
+\section{education}
+\begin{entrylist}
+  <%#education%>
+  \entry
+    {<%start_date%> - <%end_date%>}
+    {<%type%> - <%name%>}
+    {<%institution%>}
+    {<%location%>}
+  <%/education%>
+\end{entrylist}
+
+\end{document}
