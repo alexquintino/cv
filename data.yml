@@ -21,6 +21,7 @@ bio:
     - "Amazon Web Services"
     - "Gephi, Processing"
     - "Generative Art"
+    - "Ansible, Javascript"
     - "Akka, Play, React"
 
 experience:
@@ -41,7 +42,6 @@ experience:
         - "Developed an administration back office to manage all aspects of AGO"
         - "Responsible for assisting the launch of several online casinos for established brands, by interacting directly with clients and acting as the link between the client and the rest of the development team"
         - "Helped interview new hires and responsible for onboarding them in the applications' architecture and development, test and release processes"
-        - "Assisted in the development of AGO"
     location: "Stockholm, Sweden"
   - start_date: 8/2010
     end_date: 8/2011
@@ -53,6 +53,14 @@ experience:
         - "Single-handedly developed and integrated a Java applet responsible for the submission of encrypted proposals to Gatewit's public procurement platform"
         - "Developed initial integration, through secure web-services, of Gatewit's public procurement platform with the portuguese government's platform of public contracts(Base)"
     location: "Lisbon, Portugal"
+
+side_projects:
+  - title: "Discogs Parser"
+    description: "A set of tools to parse, extract and process over 50 million items from the Discogs Data Dumps. Tools used include Scala and Apache Spark"
+    url: "github.com/alexquintino/discogs-parser"
+  - title: "Visualizing collaborations between Artists"
+    description: "A small project to visualize a graph of relationships between artists based on Discogs Data Dumps and my Spotify music collection. Tools used include Neo4j, Gephi and Discogs Parser."
+    url: "alexquintino.github.io/blog/visualizing-collaborations-between-artists"
 
 education:
   - start_date: 6/2014

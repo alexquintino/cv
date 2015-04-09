@@ -1,4 +1,4 @@
-\ProvidesClass{friggeri-cv}[2012/04/30 CV class]
+\ProvidesClass{amsquintino-cv}[2012/04/30 CV class]
 \NeedsTeXFormat{LaTeX2e}
 
 \DeclareOption{print}{\def\@cv@print{}}
@@ -19,7 +19,8 @@
 
 \definecolor{darkgray}{HTML}{333333}
 \definecolor{gray}{HTML}{4D4D4D}
-\definecolor{lightgray}{HTML}{999999}
+\definecolor{lightgray}{HTML}{666666}
+\definecolor{black}{HTML}{2A363B}
 
 \definecolor{green}{HTML}{C2E15F}
 \definecolor{orange}{HTML}{FDA333}
@@ -28,19 +29,19 @@
 \definecolor{blue}{HTML}{6CE0F1}
 
 \ifdefined\@cv@print
-  \colorlet{green}{gray}
-  \colorlet{orange}{gray}
-  \colorlet{purple}{gray}
-  \colorlet{red}{gray}
-  \colorlet{blue}{gray}
+  \colorlet{green}{black}
+  \colorlet{orange}{black}
+  \colorlet{purple}{black}
+  \colorlet{red}{black}
+  \colorlet{blue}{black}
   \colorlet{fillheader}{white}
-  \colorlet{header}{gray}
+  \colorlet{header}{black}
 \else
   \colorlet{fillheader}{gray}
   \colorlet{header}{white}
 \fi
-\colorlet{textcolor}{gray}
-\colorlet{headercolor}{gray}
+\colorlet{textcolor}{black}
+\colorlet{headercolor}{black}
 
 %%%%%%%%%
 % Fonts %
@@ -52,7 +53,7 @@
 \newfontfamily\bodyfont[]{Raleway}
 \newfontfamily\thinfont[]{Raleway Thin}
 \newfontfamily\headingfont[]{Raleway Bold}
-\newfontfamily\iconfont[]{FontAwesome}
+\newfontfamily\iconfont[Color=textcolor]{FontAwesome}
 
 \defaultfontfeatures{Mapping=tex-text, Numbers=Lining}
 \setmainfont[Mapping=tex-text, Color=textcolor]{Raleway Light}
@@ -83,7 +84,7 @@
       \thinfont #3%
     };
   \end{tikzpicture}
-  \vspace{2.5cm}
+  \vspace{1.5cm}
   \vspace{-2\parskip}
 }
 
@@ -111,18 +112,12 @@
 }
 
 \renewcommand{\section}[1]{
-  \par\vspace{\parskip}
+  \par
   {%
     \LARGE\headingfont\color{headercolor}%
     \@sectioncolor #1%
   }
-  \par\vspace{\parskip}
-}
-
-\renewcommand{\subsection}[2]{
-  \par\vspace{.5\parskip}%
-  \Large\headingfont\color{headercolor} #2%
-  \par\vspace{.25\parskip}%
+  \par\vspace{0.5\parskip}
 }
 
 \pagestyle{empty}
@@ -162,6 +157,7 @@
     #2 & {\footnotesize\addfontfeature{Color=lightgray} #4} \\[\parsep]}
 
 
+
 %%%%%%%%%%%%%%
 % Side block %
 %%%%%%%%%%%%%%
@@ -174,7 +170,7 @@
   \renewcommand{\section}[1]{
     \par\vspace{\baselineskip}{\Large\headingfont\color{headercolor} ##1}
   }
-  \begin{textblock}{4.1}(1, 4.33)
+  \begin{textblock}{4.1}(1, 3.15)
   \begin{flushright}
   \obeycr
 }{%
@@ -188,5 +184,5 @@
 % Other tweaks %
 %%%%%%%%%%%%%%%%
 
-\RequirePackage[left=6.1cm,top=2cm,right=1.5cm,bottom=2.5cm,nohead,nofoot]{geometry}
+\RequirePackage[left=6.1cm,top=2cm,right=1.5cm,bottom=1.5cm,nohead,nofoot]{geometry}
 \RequirePackage{hyperref}

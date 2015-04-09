@@ -1,6 +1,6 @@
 {{=<% %>=}}
 %!TEX TS-program = xelatex
-\documentclass[print]{friggeri-cv}
+\documentclass[print]{amsquintino-cv}
 
 \begin{document}
 <%#bio%>
@@ -33,15 +33,15 @@
 \begin{experience}
   <%#experience%>
     \experienceentry
-      {<%start_date%> to}
-      {<%end_date%>}
+      {from <%start_date%>}
+      {to <%end_date%>}
       {<%title%> <%#company%> @ <%.%> <%/company%>}
       {<%location%>}
       <%#responsibilities%>
         {<%main%>}
         {<%#items.length%>
           \begin{itemize}[leftmargin=*]
-          \itemsep 0.8em
+          \itemsep 0.3em
             <%#items%>
               \item <%& .%>
             <%/items%>
@@ -51,12 +51,19 @@
   <%/experience%>
 \end{experience}
 
+\section{side projects}
+<%#side_projects%>
+{\large\textbf{<% title %>}} \\
+{\footnotesize\addfontfeature{Color=lightgray} \href{https://<%url%>}{<%url%>}}\\
+<% description %> \\[\parsep]
+<%/side_projects%>
+
 \section{education}
 \begin{education}
   <%#education%>
   \educationentry
-    {<%start_date%> to}
-    {<%end_date%>}
+    {from <%start_date%>}
+    {to <%end_date%>}
     {<%type%> in <%name%>}
     {<%institution%>, <%location%>}
   <%/education%>
