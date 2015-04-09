@@ -35,40 +35,40 @@ experience:
     title: Software Developer
     company: Ongame
     responsibilities:
-      main: "part of the team responsible for the Amaya Gaming Office(AGO), a platform for multi-vertical online gaming."
+      main: "Part of the team responsible for the Amaya Gaming Office(AGO), a platform for multi-vertical online gaming."
       items:
-        - "helped develop a white-label portal that integrates with AGO and other 3rd-party services to provide an online casino."
-        - "developed an administration back office to manage all aspects of AGO"
-        - "responsible for assisting the launch of several online casinos for established brands, by interacting directly with clients and acting as the link between the client and the rest of the development team"
-        - "helped interview new hires and responsible for onboarding them in the applications' architecture and development,test and release processes"
-        - "assisted in the development of AGO"
+        - "Helped develop a white-label portal that integrates with AGO and other 3rd-party services to provide an online casino."
+        - "Developed an administration back office to manage all aspects of AGO"
+        - "Responsible for assisting the launch of several online casinos for established brands, by interacting directly with clients and acting as the link between the client and the rest of the development team"
+        - "Helped interview new hires and responsible for onboarding them in the applications' architecture and development, test and release processes"
+        - "Assisted in the development of AGO"
     location: "Stockholm, Sweden"
   - start_date: 8/2010
     end_date: 8/2011
     title: Software Developer
     company: Gatewit
     responsibilities:
-      main: "part of the team responsible for Compras Públicas, a leading public procurement platform"
+      main: "Part of the team responsible for Compras Públicas, a leading public procurement platform"
       items:
-        - "single-handedly developed and integrated a Java applet responsible for the submission of encrypted proposals to Gatewit's public procurement platform"
-        - "developed initial integration, through secure web-services, of Gatewit's public procurement platform with the portuguese government's platform of public contracts(Base)"
+        - "Single-handedly developed and integrated a Java applet responsible for the submission of encrypted proposals to Gatewit's public procurement platform"
+        - "Developed initial integration, through secure web-services, of Gatewit's public procurement platform with the portuguese government's platform of public contracts(Base)"
     location: "Lisbon, Portugal"
 
 education:
+  - start_date: 6/2014
+    end_date: 9/2014
+    name: Machine Learning
+    type: Course
+    institution: Coursera
+  - start_date: 6/2011
+    end_date: 1/2012
+    institution: Kungliga Tekniska Högskolan
+    type: Msc
+    name: Information Systems and Computer Engineering
+    location: "Stockholm, Sweden"
   - start_date: 2007
     end_date: 2011
     institution: Instituto Superior Técnico
     name: Information Systems and Computer Engineering
     type: Bsc
     location: "Lisbon, Portugal"
-  - start_date: 2011
-    end_date: 2012
-    institution: Kungliga Tekniska Högskolan
-    type: Msc
-    name: Information Systems and Computer Engineering
-    location: "Stockholm, Sweden"
-  - start_date: 6/2014
-    end_date: 9/2014
-    name: Machine Learning
-    type: Course
-    institution: Coursera

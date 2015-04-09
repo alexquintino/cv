@@ -134,23 +134,12 @@
 \usepackage{enumitem}
 
 \setlength{\tabcolsep}{4pt}
-\newenvironment{entrylist}{%
-  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}ll}
-}{%
-  \end{tabular*}
-}
-\renewcommand{\bfseries}{\headingfont\color{headercolor}}
-\newcommand{\entry}[4]{%
-  #1&\parbox[t]{11.8cm}{%
-    \textbf{#2}%
-    \hfill%
-    {\footnotesize\addfontfeature{Color=lightgray} #3}\\%
-    #4\vspace{\parsep}%
-  }\\}
 
-\newenvironment{experience}%
-  {\tabularx{\textwidth}{ll@{\extracolsep{\fill}}r}}%
-  {\endtabularx}%
+\renewcommand{\bfseries}{\headingfont\color{headercolor}}
+
+\newenvironment{experience}
+  {\tabularx{\textwidth}{ll@{\extracolsep{\fill}}r}}
+  {\endtabularx}
 
 \newcommand{\experienceentry}[6]{
     #1 &
@@ -159,8 +148,17 @@
     #2 &
     \multicolumn{2}{X}{
       #5 \vspace{\parsep}
-      #6} \\
+      #6} \\[\parsep]
     }
+
+\newenvironment{education}
+  {\tabularx{\textwidth}{ll@{\extracolsep{\fill}}}}
+  {\endtabularx}
+
+\newcommand{\educationentry}[4]{
+    #1 &
+    {\large\textbf{#3}} \\
+    #2 & {\footnotesize\addfontfeature{Color=lightgray} #4} \\[\parsep]}
 
 
 %%%%%%%%%%%%%%
