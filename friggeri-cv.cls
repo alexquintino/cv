@@ -132,6 +132,7 @@
 % List environment %
 %%%%%%%%%%%%%%%%%%%%
 \usepackage{enumitem}
+\def\labelitemi{{\scriptsize\iconfont\symbol{"F054}}}
 
 \setlength{\tabcolsep}{4pt}
 
@@ -142,10 +143,10 @@
   {\endtabularx}
 
 \newcommand{\experienceentry}[6]{
-    #1 &
+    {\small#1} &
     {\large\textbf{#3}} &
     {\footnotesize\addfontfeature{Color=lightgray} #4} \\
-    #2 &
+    {\small#2} &
     \multicolumn{2}{X}{
       #5 \vspace{\parsep}
       #6} \\[\parsep]
