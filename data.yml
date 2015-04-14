@@ -13,7 +13,7 @@ bio:
   interests:
     - "Ruby, Neo4j"
     - "Machine Learning"
-    - "Apache Spark"
+    - "Apache Spark, Hadoop"
     - "Scala, D3.js"
     - "Redis, Docker"
     - "Data Visualization"
@@ -29,18 +29,18 @@ experience:
     end_date: present
     title: Independent Software Developer
     responsibilities:
-      main: "I have been developing web apps across the whole stack using Ruby has backend language and also been involved with Machine Learning and Big Data"
+      main: "I have been developing web apps across the whole stack using Ruby as backend language. I have also been involved with Machine Learning and Big Data"
     location: "Geneva, Switzerland"
   - start_date: 1/2012
     end_date: 12/2013
-    title: Software Developer
+    title: Full Stack Software Developer
     company: Ongame
     responsibilities:
-      main: "Part of the team responsible for the Amaya Gaming Office(AGO), a platform for multi-vertical online gaming."
+      main: "Part of the team responsible for the Amaya Gaming Office (AGO), a platform for multi-vertical online gaming"
       items:
-        - "Helped develop a white-label portal that integrates with AGO and other 3rd-party services to provide an online casino."
-        - "Developed an administration back office to manage all aspects of AGO"
-        - "Responsible for assisting the launch of several online casinos for established brands, by interacting directly with clients and acting as the link between the client and the rest of the development team"
+        - "Helped develop a white-label portal that integrates with AGO and other 3rd-party services to provide an online casino"
+        - "Developed an administration back office to manage all aspects of the AGO platform"
+        - "Responsible for assisting with the launch of several online casinos for established brands, by interacting directly with clients and acting as the link between the client and the rest of the development team"
         - "Helped interview new hires and responsible for onboarding them in the applications' architecture and development, test and release processes"
     location: "Stockholm, Sweden"
   - start_date: 8/2010
@@ -51,7 +51,7 @@ experience:
       main: "Part of the team responsible for Compras Públicas, a leading public procurement platform"
       items:
         - "Single-handedly developed and integrated a Java applet responsible for the submission of encrypted proposals to Gatewit's public procurement platform"
-        - "Developed initial integration, through secure web-services, of Gatewit's public procurement platform with the portuguese government's platform of public contracts(Base)"
+        - "Developed initial integration, through secure web-services, of Gatewit's public procurement platform with the Portuguese government's platform of public contracts (Base)"
     location: "Lisbon, Portugal"
 
 side_projects:
@@ -59,7 +59,7 @@ side_projects:
     description: "A set of tools to parse, extract and process over 50 million items from the Discogs Data Dumps. Tools used include Scala and Apache Spark"
     url: "github.com/alexquintino/discogs-parser"
   - title: "Visualizing collaborations between Artists"
-    description: "A small project to visualize a graph of relationships between artists based on Discogs Data Dumps and my Spotify music collection. Tools used include Neo4j, Gephi and Discogs Parser."
+    description: "A small project to visualize a graph of relationships between artists based on Discogs Data Dumps and my Spotify music collection. Tools used include Neo4j, Gephi and Discogs Parser"
     url: "alexquintino.github.io/blog/visualizing-collaborations-between-artists"
 
 education:
@@ -74,8 +74,8 @@ education:
     type: Msc
     name: Information Systems and Computer Engineering
     location: "Stockholm, Sweden"
-  - start_date: 2007
-    end_date: 2011
+  - start_date: 9/2007
+    end_date: 7/2011
     institution: Instituto Superior Técnico
     name: Information Systems and Computer Engineering
     type: Bsc
