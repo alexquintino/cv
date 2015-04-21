@@ -1,0 +1,31 @@
+{{=<% %>=}}
+%!TEX TS-program = xelatex
+\documentclass[print]{amsquintino-cv}
+
+\begin{document}
+<%#bio%>
+\header{<%first_name%>}{<%last_name%>}{}
+
+% In the aside, each new line forces a line break
+\begin{aside}
+  \section{about}
+      <%#private_address%>
+        <%.%>
+      <%/private_address%>
+      <%private_phonenumber %> {\iconfont\symbol{"F095}}
+      {\small \href{mailto:<%email%>}{<%email%> {\iconfont\symbol{"F0E0}}}}
+      \href{https://<%website%>}{{\small <%website%>} {\iconfont\symbol{"F015}}}
+      \href{https://<%github%>}{{\small <%github%>} {\iconfont\symbol{"F09B}}}
+      \href{https://twitter.com/<%twitter%>}{{\small <%twitter%>} {\iconfont\symbol{"F099}}}
+      {\small <%private_skype%>} {\iconfont\symbol{"F17E}}
+\end{aside}
+<%/bio%>
+
+\section{cover letter}
+  <%#cover%>
+    <%&.%>
+
+  <%/cover%>
+
+
+\end{document}
