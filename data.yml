@@ -11,13 +11,13 @@ bio:
     - "French - Beginner"
     - "Spanish - Beginner"
   interests:
-    - "Ruby, Neo4j"
+    - "Ruby, Scala"
     - "Machine Learning"
     - "Apache Spark, Hadoop"
-    - "Java, Scala, D3.js"
-    - "Redis, Docker"
+    - "Java, Neo4j, D3.js"
+    - "Redis, Docker, MySQL"
     - "Data Visualization"
-    - "Elasticsearch"
+    - "Elasticsearch, NoSQL"
     - "Amazon Web Services"
     - "Gephi, Processing"
     - "Generative Art"
@@ -38,7 +38,7 @@ experience:
     responsibilities:
       main: "Part of the team responsible for the Amaya Gaming Office (AGO), a platform for multi-vertical online gaming"
       items:
-        - "Helped develop a white-label portal that integrates with AGO and other 3rd-party services to provide an online casino"
+        - "Helped develop AGO as well as the white-label player portal that integrates with AGO and other services to provide a complete online casino"
         - "Developed an administration back office to manage all aspects of the AGO platform"
         - "Responsible for assisting with the launch of several online casinos for established brands, by interacting directly with clients and acting as the link between the client and the rest of the development team"
         - "Helped interview new hires and responsible for onboarding them in the applications' architecture and development, test and release processes"

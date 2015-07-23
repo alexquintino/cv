@@ -1,7 +1,8 @@
-cv.aux
-cv.log
-cv.out
-cv.pdf
-cv.tex
+*.aux
+*.log
+*.out
+*.pdf
+*.tex
 private.yml
-full.yml
+full*.yml
+cover.yml
