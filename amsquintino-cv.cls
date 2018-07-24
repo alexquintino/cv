@@ -48,17 +48,17 @@
 %%%%%%%%%
 
 \RequirePackage[quiet]{fontspec}
-\RequirePackage[math-style=TeX,vargreek-shape=unicode]{unicode-math}
+\RequirePackage{unicode-math}
 
 \newfontfamily\bodyfont[]{Raleway}
 \newfontfamily\thinfont[]{Raleway Thin}
 \newfontfamily\headingfont[]{Raleway Bold}
-\newfontfamily\iconfont[Color=textcolor]{FontAwesome}
+\newfontfamily\iconfont[Color=textcolor]{Font Awesome 5 Free Solid}
 
 \defaultfontfeatures{Mapping=tex-text, Numbers=Lining}
 \setmainfont[Mapping=tex-text, Color=textcolor]{Raleway Light}
 
-\setmathfont{xits-math.otf}
+\setmathfont{XITS Math}
 
 %%%%%%%%%%
 % Header %
