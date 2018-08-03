@@ -9,15 +9,12 @@
 % In the aside, each new line forces a line break
 \begin{aside}
   \section{about}
-      <%#private_address%>
-        <%.%>
-      <%/private_address%>
       <%private_phonenumber %> {\iconfont\symbol{"F095}}
       {\small \href{mailto:<%email%>}{<%email%> {\iconfont\symbol{"F0E0}}}}
       \href{https://<%website%>}{{\small <%website%>} {\iconfont\symbol{"F015}}}
-      \href{https://<%github%>}{{\small <%github%>} {\iconfont\symbol{"F09B}}}
-      \href{https://twitter.com/<%twitter%>}{{\small <%twitter%>} {\iconfont\symbol{"F099}}}
-      {\small <%private_skype%>} {\iconfont\symbol{"F17E}}
+      \href{https://<%github%>}{{\small <%github%>} {\brandsfont\symbol{"F09B}}}
+      \href{https://twitter.com/<%twitter%>}{{\small <%twitter%>} {\brandsfont\symbol{"F099}}}
+      {\small <%private_skype%>} {\brandsfont\symbol{"F17E}}
   \section{interests}
     <%#interests%>
       <%.%>
@@ -51,13 +48,6 @@
   <%/experience%>
 \end{experience}
 
-\section{side projects}
-<%#side_projects%>
-{\large\textbf{<% title %>}} \\
-{\footnotesize\addfontfeature{Color=lightgray} \href{https://<%url%>}{<%url%>}}\\
-<% description %> \\[\parsep]
-<%/side_projects%>
-
 \section{education}
 \begin{education}
   <%#education%>
@@ -68,5 +58,18 @@
     {<%institution%><%#location%>, <%.%> <%/location%>}
   <%/education%>
 \end{education}
+
+\section{side projects}
+<%#side_projects%>
+{\large\textbf{<% title %>}} \\
+{\footnotesize\addfontfeature{Color=lightgray} \href{https://<%url%>}{<%url%>}}\\
+<% description %> \\[\parsep]
+<%/side_projects%>
+
+\section{other}
+<%#other%>
+{\large\textbf{<% title %>}} \\
+<% description %> \\[\parsep]
+<%/other%>
 
 \end{document}

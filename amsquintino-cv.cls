@@ -54,6 +54,7 @@
 \newfontfamily\thinfont[]{Raleway Thin}
 \newfontfamily\headingfont[]{Raleway Bold}
 \newfontfamily\iconfont[Color=textcolor]{Font Awesome 5 Free Solid}
+\newfontfamily\brandsfont[Color=textcolor]{Font Awesome 5 Brands}
 
 \defaultfontfeatures{Mapping=tex-text, Numbers=Lining}
 \setmainfont[Mapping=tex-text, Color=textcolor]{Raleway Light}
