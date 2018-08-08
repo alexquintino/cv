@@ -28,26 +28,29 @@
 
 \section{experience}
 <%#experience%>
+
 \begin{experience}
   <%#page%>
-    \experienceentry
+    \<%type%>experienceentry
       {from <%start_date%>}
       {to <%end_date%>}
       {<%title%> <%#company%> @ <%.%> <%/company%>}
       {<%location%>}
       <%#responsibilities%>
         {<%main%>}
-        {<%#items.length%>
-          \begin{itemize}[leftmargin=*]
-          \itemsep 0.3em
+        <%#items.length%>{\begin{itemize}[leftmargin=*,itemsep=0.3em,after=\vspace{-\baselineskip}]
             <%#items%>
               \item <%& .%>
             <%/items%>
-          \end{itemize}
-        <%/items.length%>}
+          \end{itemize}}<%/items.length%>
       <%/responsibilities%>
+      <%#tech_stack%>
+        {tech stack} {<% . %>}
+      <%/tech_stack%>
+
   <%/page%>
 \end{experience}
+
 <%/experience%>
 
 \section{education}

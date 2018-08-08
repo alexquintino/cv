@@ -138,14 +138,25 @@
   {\tabularx{\textwidth}{ll@{\extracolsep{\fill}}r}}
   {\endtabularx}
 
-\newcommand{\experienceentry}[6]{
+\newcommand{\experienceentry}[8]{
     {\small#1} &
     {\large\textbf{#3}} &
     {\footnotesize\addfontfeature{Color=lightgray} #4} \\
     {\small#2} &
+    \multicolumn{2}{X}{ #5 } \\
+    & \multicolumn{2}{X}{ #6 } \vspace{\parsep} \\
+    {\small\textbf{#7}} &
     \multicolumn{2}{X}{
-      #5 \vspace{\parsep}
-      #6} \\[\parsep]
+      {\small\textbf{#8}}
+    } \vspace{3\parsep} \\
+    }
+
+\newcommand{\specialexperienceentry}[5]{
+    {\small#1} &
+    {\large\textbf{#3}} &
+    {\footnotesize\addfontfeature{Color=lightgray} #4} \\
+    {\small#2} &
+    \multicolumn{2}{X}{ #5 } \vspace{3\parsep} \\
     }
 
 \newenvironment{education}
