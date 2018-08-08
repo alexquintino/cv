@@ -24,59 +24,61 @@ bio:
     - "Ansible, Angular"
 
 experience:
-  - start_date: 4/2016
-    end_date: present
-    title: Chief Technology Officer
-    company: Faveeo
-    responsibilities:
-      main: "Responsible for everything related to technology and engineering during a period that culminated with a funding round of 2.2 million CHF"
-      items:
-        - "Handled the architecture, development, deployment and monitoring of the engine powering the Essentials content hub and the Horizons platform. This engine processes over 175 thousand documents a day"
-        - "Managed and implemented custom integrations for P\\&G, ICRC, Cisco, AGEFI and others"
-        - "Responsible for recruiting, on-boarding and managing internal and external developers"
-        - "Represented Faveeo in multiple events and presentations"
-        - "Tech Stack: Java, Elasticsearch, Amazon Web Services (EC2, RDS, S3, Cloudfront, ElastiCache, etc), Ruby, RabbitMQ, MongoDB, Kafka, Auth0, Buffer, etc."
-    location: Lausanne, Switzerland
-  - start_date: 5/2015
-    end_date: 3/2016
-    title: Software Developer
-    company: Faveeo
-    responsibilities:
-      main: "Played an important role in reaching MVP and launching the Horizons platform"
-      items:
-        - "Single-handedly implemented and deployed new features across the full stack"
-        - "Tech Stack: Java, Elasticsearch, AngularJS, Ruby, AWS, Auth0"
-    location: Lausanne, Switzerland
-  - start_date: 3/2014
-    end_date: 4/2015
-    title: Independent Software Developer
-    responsibilities:
-      main: ""
-    location: "Geneva, Switzerland"
-  - start_date: 1/2012
-    end_date: 12/2013
-    title: Full Stack Software Developer
-    company: Ongame
-    responsibilities:
-      main: "Part of the team responsible for developing the Amaya Gaming Office (AGO), a platform for multi-vertical online gaming"
-      items:
-        - "Helped develop AGO as well as the white-label player portal that integrates with AGO and other services to provide a complete online casino"
-        - "Developed an administration back office to manage all aspects of the AGO platform"
-        - "Responsible for assisting with the launch of several online casinos for established brands, by interacting directly with clients and acting as the link between the client and the rest of the development team"
-        - "Helped interview new hires and responsible for onboarding them in the applications' architecture and development, test and release processes"
-        - "Tech Stack: Java, Hibernate, Ruby on Rails, React, AlchemyCMS, MySQL"
-    location: "Stockholm, Sweden"
-  - start_date: 8/2010
-    end_date: 8/2011
-    title: Software Developer
-    company: Gatewit
-    responsibilities:
-      main: "Part of the team responsible for Compras Públicas, a leading public procurement platform"
-      items:
-        - "Single-handedly developed and integrated a Java applet responsible for the submission of encrypted proposals to Gatewit's public procurement platform"
-        - "Developed initial integration, through secure web-services, of Gatewit's public procurement platform with the Portuguese government's platform of public contracts (Base)"
-        - "Tech Stack: PHP, Java, Java Swing, Web Services"
-    location: "Lisbon, Portugal"
+  - page:
+    - start_date: 4/2016
+      end_date: present
+      title: Chief Technology Officer
+      company: Faveeo
+      responsibilities:
+        main: "Responsible for everything related to technology and engineering during a period that culminated with a funding round of 2.2 million CHF"
+        items:
+          - "Handled the architecture, development, deployment and monitoring of the engine powering the Essentials content hub and the Horizons platform. This engine processes over 175 thousand documents a day"
+          - "Managed and implemented custom integrations for P\\&G, ICRC, Cisco, AGEFI and others"
+          - "Responsible for recruiting, on-boarding and managing internal and external developers"
+          - "Represented Faveeo in multiple events and presentations"
+          - "Tech Stack: Java, Elasticsearch, Amazon Web Services (EC2, RDS, S3, Cloudfront, ElastiCache, etc), Ruby, RabbitMQ, MongoDB, Kafka, Auth0, Buffer, etc."
+      location: Lausanne, Switzerland
+    - start_date: 5/2015
+      end_date: 3/2016
+      title: Software Developer
+      company: Faveeo
+      responsibilities:
+        main: "Played an important role in reaching MVP and launching the Horizons platform"
+        items:
+          - "Single-handedly implemented and deployed new features across the full stack"
+          - "Tech Stack: Java, Elasticsearch, AngularJS, Ruby, AWS, Auth0"
+      location: Lausanne, Switzerland
+    - start_date: 3/2014
+      end_date: 4/2015
+      title: Independent Software Developer
+      responsibilities:
+        main: ""
+      location: "Geneva, Switzerland"
+    - start_date: 1/2012
+      end_date: 12/2013
+      title: Full Stack Software Developer
+      company: Ongame
+      responsibilities:
+        main: "Part of the team responsible for developing the Amaya Gaming Office (AGO), a platform for multi-vertical online gaming"
+        items:
+          - "Helped develop AGO as well as the white-label player portal that integrates with AGO and other services to provide a complete online casino"
+          - "Developed an administration back office to manage all aspects of the AGO platform"
+          - "Responsible for assisting with the launch of several online casinos for established brands, by interacting directly with clients and acting as the link between the client and the rest of the development team"
+          - "Helped interview new hires and responsible for onboarding them in the applications' architecture and development, test and release processes"
+          - "Tech Stack: Java, Hibernate, Ruby on Rails, React, AlchemyCMS, MySQL"
+      location: "Stockholm, Sweden"
+  - page:
+    - start_date: 8/2010
+      end_date: 8/2011
+      title: Software Developer
+      company: Gatewit
+      responsibilities:
+        main: "Part of the team responsible for Compras Públicas, a leading public procurement platform"
+        items:
+          - "Single-handedly developed and integrated a Java applet responsible for the submission of encrypted proposals to Gatewit's public procurement platform"
+          - "Developed initial integration, through secure web-services, of Gatewit's public procurement platform with the Portuguese government's platform of public contracts (Base)"
+          - "Tech Stack: PHP, Java, Java Swing, Web Services"
+      location: "Lisbon, Portugal"
 
 side_projects:
   - title: "Discogs Parser"

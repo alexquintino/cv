@@ -27,8 +27,9 @@
 <%/bio%>
 
 \section{experience}
+<%#experience%>
 \begin{experience}
-  <%#experience%>
+  <%#page%>
     \experienceentry
       {from <%start_date%>}
       {to <%end_date%>}
@@ -45,8 +46,9 @@
           \end{itemize}
         <%/items.length%>}
       <%/responsibilities%>
-  <%/experience%>
+  <%/page%>
 \end{experience}
+<%/experience%>
 
 \section{education}
 \begin{education}
