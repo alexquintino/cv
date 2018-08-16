@@ -5,6 +5,7 @@ bio:
   website: alexquintino.github.io
   github: github.com/alexquintino
   twitter: amsquintino
+  linkedin: alexandrequintino
   languages:
     - "Portuguese - Native"
     - "English - Full Proficiency"
@@ -37,7 +38,7 @@ experience:
           - "Responsible for recruiting, on-boarding and managing internal and external developers"
           - "Represented Faveeo in multiple events and presentations"
       location: Lausanne, Switzerland
-      tech_stack: "Java, Elasticsearch, Amazon Web Services (EC2, RDS, S3, Cloudfront, ElastiCache, etc), Ruby, RabbitMQ, MongoDB, Kafka, Auth0, Buffer, etc."
+      tech_stack: "Java, Elasticsearch, Amazon Web Services (EC2, RDS, S3, Cloudfront, ElastiCache, etc), Ruby, RabbitMQ, MongoDB, Kafka, Auth0, Buffer, Kibana, etc."
     - start_date: 5/2015
       end_date: 3/2016
       title: Software Developer
@@ -67,7 +68,7 @@ experience:
           - "Responsible for assisting with the launch of several online casinos for established brands, by interacting directly with clients and acting as the link between the client and the rest of the development team"
           - "Interviewed new hires and onboarded them in the applications' architecture and development, test and release processes"
       location: "Stockholm, Sweden"
-      tech_stack: "Java, Hibernate, Ruby on Rails, React, AlchemyCMS, MySQL"
+      tech_stack: "Java, Hibernate, JBoss, Ruby on Rails, React, AlchemyCMS, MySQL, Bootstrap"
   - page:
     - start_date: 8/2010
       end_date: 8/2011
@@ -79,7 +80,7 @@ experience:
           - "Single-handedly developed and integrated a Java applet responsible for the submission of encrypted proposals to Gatewit's public procurement platform"
           - "Developed initial integration, through secure web-services, of Gatewit's public procurement platform with the Portuguese government's platform of public contracts (Base)"
       location: "Lisbon, Portugal"
-      tech_stack: "PHP, Java, Java Swing, Web Services"
+      tech_stack: "PHP, Java, Java Swing, Web Services, WSDL + WS-Security, SOAP"
 
 side_projects:
   - title: "Discogs Parser"
