@@ -27,7 +27,7 @@ bio:
 experience:
   - page:
     - start_date: 4/2016
-      end_date: present
+      end_date: 7/2018
       title: Chief Technology Officer
       company: Faveeo
       responsibilities:
@@ -114,3 +114,5 @@ other:
     description: "Supported teams with any technical questions regarding the implementation of their startup ideas"
   - title: "Coach at Rails Girls Geneva in 2015 and 2017"
     description: "Introduced Ruby on Rails and coached my own team during their first steps into programming and web development"
+  - title: "RYA Day Skipper, RYA VHF Radio and ICC Sailing Licenses"
+    description: "Passed the theory and practice exams to obtain the sailing licenses needed to charter sailing boats"
